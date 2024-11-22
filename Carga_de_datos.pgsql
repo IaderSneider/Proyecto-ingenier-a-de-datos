@@ -63,8 +63,9 @@ from 'C:\Users\Public\Proyecto-ingenieria-de-datos\Tablas\servir.csv'
 WITH (FORMAT csv, DELIMITER ',', HEADER true);
 
 
-select* from departamento
---Eliminar tablas
+-------------------------------------------------------
+--Eliminar tablas--------------------------------------
+-------------------------------------------------------
 drop table sedes_instituciones_educativas;
 drop table instituciones_educativas;
 drop table servir;
