@@ -1,9 +1,0 @@
-import pandas as pd
-
-data= pd.read_csv("Datos\INSTITUCIONES_EDUCATIVAS_OFICIALES_DE_MUNICIPIOS_DEL_DEPARTAMENTO_DE_BOYAC__CON_CONEXION_A_INTERNET_20241120.csv")
-
-#duplicados = data[data['PROYECTOS DE CONECTIVIDAD 2024','OPERADOR'].duplicated()]
-
-#print(data)
-
-print(data[['PROYECTOS DE CONECTIVIDAD 2024', 'OPERADOR']])
