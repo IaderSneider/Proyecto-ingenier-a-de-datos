@@ -64,6 +64,18 @@ WITH (FORMAT csv, DELIMITER ',', HEADER true);
 
 
 -------------------------------------------------------
+--Ver tablas-------------------------------------------
+-------------------------------------------------------
+select * from sedes_instituciones_educativas;
+select * from instituciones_educativas;
+select * from servir;
+select * from servicio_internet;
+select * from municipio;
+select * from departamento;
+
+
+
+-------------------------------------------------------
 --Eliminar tablas--------------------------------------
 -------------------------------------------------------
 drop table sedes_instituciones_educativas;
