@@ -1,0 +1,23 @@
+body {
+    background-color: #a6acaf ;
+}
+
+h1 {
+    color:red;
+    text-align: center;
+    text-shadow:
+        1px 1px 0 black, 
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black;;
+
+}
+
+h2 {
+    color:rgb(214, 137, 16) ;
+    text-shadow: 
+        1px 1px 0 black, 
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black;;
+}
